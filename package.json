@@ -1,0 +1,22 @@
+{
+  "name": "project-hot-restaurant",
+  "version": "1.0.0",
+  "description": "Application for adding and viewing restaurant tables and reservations",
+  "main": "Express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KHulsy/Project-Hot-Restaurant.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KHulsy/Project-Hot-Restaurant/issues"
+  },
+  "homepage": "https://github.com/KHulsy/Project-Hot-Restaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
