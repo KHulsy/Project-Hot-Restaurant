@@ -24,6 +24,18 @@ let waitlist = [
     }
 ]
 
+// API Routes
+
+// Displays all tables
+app.get("/api/tables", function(req, res) {
+    return res.json(tables);
+});
+
+// Displays the waitlist
+app.get("/api/waitlist", function(req, res) {
+    return res.json(waitlist);
+});
+
 // Start the server
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);
