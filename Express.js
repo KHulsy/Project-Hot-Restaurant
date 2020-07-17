@@ -24,7 +24,22 @@ let waitlist = [
     }
 ]
 
-// API Routes
+// Routes
+
+// Show home page
+app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname, "home.html"));
+});
+
+// Show make reservaiton page
+app.get("/make", function(req, res) {
+    res.sendFile(path.join(__dirname, "make.html"));
+});
+
+// Show view tables page
+app.get("/view", function(req, res) {
+    res.sendFile(path.join(__dirname, "view.html"));
+});
 
 // Displays all tables
 app.get("/api/tables", function(req, res) {
