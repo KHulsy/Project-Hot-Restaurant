@@ -4,7 +4,7 @@ const path = require("path");
 
 // Set up express
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Create arrays to store data
 let tables = [
